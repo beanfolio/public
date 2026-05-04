@@ -1,3 +1,10 @@
+---
+layout: default
+title: Privacy Policy
+---
+
+<img src="./assets/images/icon.jpeg" alt="Beanfolio Icon" class="header-logo">
+
 # Privacy Policy — Beanfolio
 
 *Last updated: May 3, 2025*

@@ -1,0 +1,104 @@
+---
+---
+
+@import "jekyll-theme-cayman";
+
+// Beanfolio Brand Colors
+$espresso: #3C2A21;
+$amber: #D4860A;
+$paper: #FDFCF8;
+$night: #1A1109;
+
+body {
+  background-color: $paper;
+  color: $espresso;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.page-header {
+  color: $paper;
+  text-align: center;
+  background-color: $espresso;
+  background-image: linear-gradient(120deg, $espresso, darken($amber, 10%));
+
+  @media screen and (min-width: 64em) {
+    padding: 5rem 6rem;
+  }
+
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    padding: 3rem 4rem;
+  }
+
+  @media screen and (max-width: 42em) {
+    padding: 2rem 1rem;
+  }
+}
+
+.project-name {
+  color: $paper;
+}
+
+.project-tagline {
+  color: rgba($paper, 0.8);
+}
+
+.main-content {
+  background-color: $paper;
+  color: $espresso;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $espresso;
+    margin-top: 2rem;
+  }
+
+  a {
+    color: $amber;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  code {
+    background-color: darken($paper, 5%);
+    color: $espresso;
+  }
+
+  blockquote {
+    border-left: 4px solid $amber;
+    color: lighten($espresso, 20%);
+    padding-left: 1rem;
+    font-style: italic;
+    background-color: darken($paper, 2%);
+  }
+}
+
+.btn {
+  color: $paper;
+  background-color: rgba($paper, 0.08);
+  border-color: rgba($paper, 0.2);
+  
+  &:hover {
+    color: $paper;
+    background-color: rgba($paper, 0.2);
+    border-color: rgba($paper, 0.3);
+  }
+}
+
+.site-footer {
+  border-top: 1px solid darken($paper, 10%);
+  padding-top: 2rem;
+  margin-top: 4rem;
+  color: lighten($espresso, 30%);
+}
+
+// Custom addition: Logo in header (optional, but good for branding)
+.header-logo {
+  display: block;
+  margin: 0 auto 1.5rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
