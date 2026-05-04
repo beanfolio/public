@@ -75,6 +75,7 @@ body {
 }
 
 .btn {
+  display: none; // Hide default theme buttons (GitHub links)
   color: $paper;
   background-color: rgba($paper, 0.08);
   border-color: rgba($paper, 0.2);
@@ -91,6 +92,11 @@ body {
   padding-top: 2rem;
   margin-top: 4rem;
   color: lighten($espresso, 30%);
+
+  // Hide the "View on GitHub" or theme credits if they contain GitHub links
+  .site-footer-owner, .site-footer-credits {
+    display: none;
+  }
 }
 
 // Custom addition: Logo in header (optional, but good for branding)
