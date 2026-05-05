@@ -3,7 +3,11 @@ layout: default
 title: Privacy Policy
 ---
 
-<img src="./assets/images/icon.jpeg" alt="Beanfolio Icon" class="header-logo">
+<p align="right">
+  <strong>English</strong> | <a href="../fr/privacy-policy">Français</a>
+</p>
+
+<img src="../assets/images/icon.jpeg" alt="Beanfolio Icon" class="header-logo">
 
 # Privacy Policy — Beanfolio
 
@@ -107,13 +111,31 @@ For any other request, contact us at the address below.
 
 ---
 
-## 7. Changes to This Policy
+## 7. User Privacy Choices
+
+We believe you should have control over your data. You can manage your privacy through the following choices:
+
+### Authentication Choices
+- **Sign in with Apple:** When creating your account, you can choose to "Share My Email" or "Hide My Email." If you choose to hide it, Apple will create a unique, random email address that forwards to your personal email, keeping your real address private from us.
+- **Sign in with Google:** You can manage or revoke access for Beanfolio at any time through your Google Account security settings.
+
+### Device Permissions
+- **Camera Access:** We only request camera access to scan coffee bags. You can grant or revoke this permission at any time in your **iOS Settings → Beanfolio → Camera**. If revoked, you will still be able to use the app but will need to enter coffee data manually.
+- **Notifications:** We may ask for permission to send you notifications about new weekly discoveries or milestones. You can manage these in **iOS Settings → Notifications → Beanfolio**.
+
+### Data Management
+- **Account Deletion:** You can permanently delete your account and all associated data at any time via **Profile → Delete Account** as detailed in Section 4.
+- **Anonymized Analytics:** Our analytics are designed to be privacy-first and anonymized. We do not track you across other apps or websites.
+
+---
+
+## 8. Changes to This Policy
 
 We may update this policy as the app evolves. When we do, we will update the "Last updated" date at the top. Continued use of the app after changes constitutes acceptance of the updated policy.
 
 ---
 
-## 8. Contact
+## 9. Contact
 
 If you have any questions about this privacy policy or how your data is handled, please contact us at:
 

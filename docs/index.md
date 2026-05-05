@@ -3,6 +3,10 @@ layout: default
 title: Support
 ---
 
+<p align="right">
+  <strong>English</strong> | <a href="./fr/">Français</a>
+</p>
+
 <img src="./assets/images/icon.jpeg" alt="Beanfolio Icon" class="header-logo">
 
 # Beanfolio Support
